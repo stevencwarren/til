@@ -4,8 +4,7 @@ date: 2020-07-21
 draft: false
 summary: Today we worked through a deployment issue where the deployments failed due to the server running out of disk space. This is how we used the df command to resolve the issue.
 tags:
-  - sysadmin
-  - linux
+  - devops
 ---
 
 Earlier today we had an issue deploying a front-end application. The deployment process is a bit peculiar since we use Netlify to build the application and then copy the source file to a legacy server. I found out later that this was a half-done migration. Eventually, the site will be wholly served by Netlify.

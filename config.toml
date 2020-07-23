@@ -24,7 +24,7 @@ tag ="devops elixir ruby go development other"
 
 [[deployment.targets]]
 name = "awss3"
-URL = "s3://stevencwarren-til?region=us-east-2"
+URL = "s3://til.stevencwarren.com?region=us-east-2"
 
 [[deployment.matchers]]
 #  Cache static assets for 1 year.
