@@ -1,0 +1,28 @@
+baseURL = "http://til.stevencwarren.com/"
+languageCode = "en-us"
+title = "Today I Learned - Steven Warren"
+theme = "kiss"
+Paginate = 25
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Steven Warren" # Author full name
+authorEmail = "steven@stevencwarren.com" # Author email
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+homeTitle = "Today I Learned - Steven Warren"
+
+[params.social]
+twitter = "stevencwarren"
+github = "stevencwarren"
+email = "steven@stevencwarren.com"
+linkedin = "stevenwarren"
+
+[params.social.config]
+platforms = ["about", "github","twitter","email","linkedin"]
+
+[taxonomies]
+tag ="devops elixir ruby go development other"
