@@ -26,3 +26,7 @@ platforms = ["about", "github","twitter","email","linkedin"]
 
 [taxonomies]
 tag ="devops elixir ruby go development other"
+
+[[deployment.targets]]
+name = "awss3"
+URL = "s3://stevencwarren-til?region=us-east-2"
